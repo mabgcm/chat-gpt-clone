@@ -29,7 +29,7 @@ export default function Home() {
 
   return (
     <main className={styles.container}>
-      <h1 className={styles.title}>AI Prompt Generator</h1>
+      <h1 className={styles.title}>Musluman ChatGPT</h1>
       <PromptForm onSubmit={handleFormSubmit} />
       <div className={styles.choices}>
         {choices.map(choice => (
